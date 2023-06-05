@@ -3,7 +3,7 @@ import openai
 
 
 for i in range(100):
-    openai.api_key = "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"
+    openai.api_key = "your api key"
     model_engine = "text-davinci-003"
     user_input = input("User:")
     prompt = "This is a message-style chatbot that can answer questions about using JavaScript.:" + user_input
