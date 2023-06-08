@@ -1,7 +1,7 @@
 import os
 import openai
 
-openai.api_key = "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"
+openai.api_key = "your openai api key"
 model_engine = "text-davinci-003"
 p = input("Topic: ")
 prompt = "Make study notes" + p
